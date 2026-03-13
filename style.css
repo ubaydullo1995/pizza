@@ -165,6 +165,7 @@ html {
 
 .sociols p {
     width: 150px;
+    margin: 15px auto;
     font-size: 20px;
     background-color: #262B40;
     color: #d1cfcf;
@@ -262,7 +263,7 @@ html {
 }
 
 @media (max-width: 1000px) {
-     .container {
+    .container {
         padding: 20px;
     }
 
@@ -275,8 +276,9 @@ html {
         gap: 20px;
     }
 
-    .sociols {
-        display: block;
+    .sociols p {
+        margin: 15px auto;
+        width: 100%;
     }
 }
 
@@ -294,6 +296,10 @@ html {
         gap: 20px;
     }
 
+    .sociols p {
+        margin: 15px auto;
+    }
+
     .sociols {
         display: block;
     }
@@ -301,13 +307,25 @@ html {
     .sociols p {
         width: 100%;
     }
+
+    .inputs {
+        display: block;
+    }
+
+    .inputs input {
+        margin-bottom: 10px;
+    }
+
+    .inputs button {
+        width: 100%;
+    }
 }
 
 @media (max-width: 360px) {
-     .container {
+    .container {
         padding: 20px;
     }
-    
+
     .header_ul {
         display: none;
     }
@@ -317,7 +335,23 @@ html {
         gap: 20px;
     }
 
+    .sociols p {
+        margin: 15px auto;
+    }
+
     .sociols {
         display: block;
+    }
+
+    .inputs {
+        display: block;
+    }
+
+    .inputs input {
+        margin-bottom: 10px;
+    }
+
+    .inputs button {
+        width: 100%;
     }
 }
